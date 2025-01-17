@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 
 # Cargar datos
-items_final = pd.read_csv('items_final_poster.csv')
+items_final = pd.read_csv('items_enriched_final.csv')
 
 # Preprocesar las películas
 def preprocess_movies(df):
